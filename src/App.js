@@ -1,14 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.scss';
+import React, { Component } from 'react'
+import ReactDom from 'react-dom';
 
-function App() {
-  return (
-  <h1>
-    jai shree RAm 
-    jai hanuman
-  </h1>
-  );
+import logo, { ReactComponent } from './logo.svg';
+import './App.scss';
+import Navbar from '../src/Components/navbar/Navbar';
+
+class App extends Component {
+  render(){
+    return <Navbar/>
+
+  }
 }
 
 export default App;
