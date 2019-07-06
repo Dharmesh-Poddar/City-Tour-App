@@ -15,12 +15,12 @@ export default function Navbar(){
 
           </li>
           <li>
-              <a href="/" className="nav-link">Home </a>
+              <a href="/" className="nav-link">About  </a>
               
           </li>
           
           <li>
-              <a href="/" className="nav-link">Home </a>
+              <a href="/" className="nav-link">Tour </a>
               
           </li>
         </ul>
