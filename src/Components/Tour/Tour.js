@@ -3,12 +3,13 @@ import './Tour.scss';
 
 export default class Tour extends Component{
    render(){
-      
+       const{city ,img, name,info} =this.props.tour;
+
        return(
           
        <article className="tour">
         <div className="img-container">
-          <img width="200" src="https://images.pexels.com/photos/1659438/pexels-photo-1659438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 " alt="ja na"
+          <img src={img } alt="ja na"
           />
 
           <span classNAme="close-btn">
@@ -20,11 +21,13 @@ export default class Tour extends Component{
 
         <div className="tour-info">
            <h3>
-               City
+               {city}
+
            </h3>
 
            <h4>
-               Name
+            {name}
+            
            </h4>
 
            <h5>
@@ -35,7 +38,7 @@ export default class Tour extends Component{
                </span>
            </h5>
            <p>
-               Probably the best place to visit during summers .
+               {info}
 
            </p>
 
