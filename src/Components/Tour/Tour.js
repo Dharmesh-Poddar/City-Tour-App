@@ -8,11 +8,12 @@ export default class Tour extends Component{
           
        <article className="tour">
         <div className="img-container">
-          <img src="https://images.pexels.com/photos/1659438/pexels-photo-1659438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 " alt="ja na"
+          <img width="200" src="https://images.pexels.com/photos/1659438/pexels-photo-1659438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 " alt="ja na"
           />
 
           <span classNAme="close-btn">
-            <i className="fas fa-window-close"/>
+
+            <i className="fas fa-window-close" />
 
           </span>
         </div>
